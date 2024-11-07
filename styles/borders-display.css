@@ -1,0 +1,111 @@
+/* --------------------------
+   Border-box и Content-box
+   -------------------------- */
+
+.content-box {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid #3498db;
+  box-sizing: content-box;
+  background-color: #ecf0f1;
+  margin-bottom: 20px;
+}
+
+.border-box {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid #3498db;
+  box-sizing: border-box;
+  background-color: #ecf0f1;
+}
+
+/* --------------------------
+     Display: Block, Inline, Inline-block
+     -------------------------- */
+
+.block {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.inline {
+  display: inline;
+  background-color: #e74c3c;
+  padding: 10px;
+  color: white;
+}
+
+.inline-block {
+  display: inline-block;
+  width: 100px;
+  background-color: #2ecc71;
+  padding: 10px;
+  color: white;
+}
+
+/* --------------------------
+     Margin Collapsing
+     -------------------------- */
+
+.collapsible-box {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 50px 0;
+}
+
+/* --------------------------
+     Nested Block Positioning
+     -------------------------- */
+
+.outer {
+  width: 200px;
+  height: 200px;
+  background-color: #3498db;
+  position: relative;
+}
+
+.inner {
+  width: 100px;
+  height: 100px;
+  background-color: #e74c3c;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* --------------------------
+     Vertical Align
+     -------------------------- */
+
+.text {
+  font-size: 20px;
+}
+
+.inline-block-vertical {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #3498db;
+  vertical-align: middle;
+}
+
+/* --------------------------
+     Background Properties
+     -------------------------- */
+
+.bg-example {
+  width: 300px;
+  height: 300px;
+  background-image: url("https://picsum.photos/150");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  border: 2px solid #000;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Basics Lesson</title>
+  <link rel="stylesheet" href="./styles/borders-display.css">
+</head>
+<body>
+
+  <!-- Section: Border-box и Content-box -->
+  <section>
+    <h2>Border-box and Content-box</h2>
+    <p>CSS uses different models to define the dimensions of an element. The two main models are <strong>content-box</strong> and <strong>border-box</strong>.</p>
+    <p><strong>content-box</strong> (default): Width and height are defined only for the content area, while padding and border are added outside of these dimensions.</p>
+    <p><strong>border-box</strong>: Width and height include content, padding, and border.</p>
+    <div class="content-box">Content Box: width 200px + padding + border</div>
+    <div class="border-box">Border Box: width 200px includes padding and border</div>
+  </section>
+
+  <!-- Section: Display - Block, Inline, Inline-block -->
+  <section>
+    <h2>Display: Block, Inline, Inline-block</h2>
+    <p>The <strong>display</strong> property defines how an element is displayed on the page.</p>
+    <p><strong>Block</strong>: Element takes up the full width available and starts on a new line.</p>
+    <p><strong>Inline</strong>: Element only takes up as much width as needed and does not break the text flow.</p>
+    <p><strong>Inline-block</strong>: Element takes up only necessary width but behaves like a block, allowing you to set dimensions.</p>
+    <div class="block">Block Element</div>
+    <span class="inline">Inline Element</span>
+    <span class="inline">Inline Element</span>
+    <div class="inline-block">Inline-block Element</div>
+    <div class="inline-block">Inline-block Element</div>
+  </section>
+
+  <!-- Section: Margin Collapsing -->
+  <section>
+    <h2>Margin Collapsing</h2>
+    <p>When two vertical margins meet, they collapse into one margin, which is equal to the larger of the two (not their sum).</p>
+    <div class="collapsible-box"></div>
+    <div class="collapsible-box"></div>
+  </section>
+
+  <!-- Section: Nested Block Positioning -->
+  <section>
+    <h2>Nested Block Positioning</h2>
+    <p>To position an element inside another, you can use <strong>margin</strong>, <strong>padding</strong>, or positioning properties such as <strong>relative</strong> and <strong>absolute</strong>.</p>
+    <div class="outer">
+      <div class="inner"></div>
+    </div>
+  </section>
+
+  <!-- Section: Vertical Align -->
+  <section>
+    <h2>Vertical Align</h2>
+    <p>The <strong>vertical-align</strong> property works with inline or inline-block elements and allows them to align vertically relative to the baseline.</p>
+    <span class="text">Text</span>
+    <div class="inline-block-vertical"></div>
+    <span class="text">Aligned</span>
+  </section>
+
+  <!-- Section: Background Properties -->
+  <section>
+    <h2>Background Properties</h2>
+    <p>The background properties allow you to set and control the appearance of background images.</p>
+    <p><strong>background-repeat</strong>: Defines whether the background image repeats. Values: repeat, no-repeat, repeat-x, repeat-y.</p>
+    <p><strong>background-position</strong>: Sets the position of the background image (e.g., center, top right).</p>
+    <p><strong>background-size</strong>: Defines the size of the background image (e.g., cover, contain).</p>
+    <p><strong>background-attachment</strong>: Fixes the background relative to the page. Values: local, fixed, scroll.</p>
+    <div class="bg-example"></div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Section titles */
+  h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Introduction */
+  p, ul {
+    font-size: 1em;
+  }
+  
+  /* Basic Syntax Example */
+  pre {
+    background-color: #e8f4f8;
+    padding: 10px;
+    border: 1px solid #b3e5fc;
+    margin: 10px 0;
+  }
+  
+  /* Types of Selectors */
+  .example .text {
+    color: green;
+  }
+  
+  #header {
+    font-weight: bold;
+    color: blue;
+  }
+  
+  /* Colors and Backgrounds */
+  .colored-text {
+    color: #ec0f0f;
+  }
+  
+  .colored-background {
+    background-color: #c5cae9;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Fonts and Text Styles */
+  .styled-heading {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    color: #333;
+  }
+  
+  .styled-text {
+    font-family: 'Verdana', sans-serif;
+    color: #555;
+  }
+  
+  /* Padding and Margin */
+  .box {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #333;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  /* CSS Box Model */
+  .container {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #000;
+    margin: 20px auto;
+    background-color: #e3f2fd;
+  }
+  

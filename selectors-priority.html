@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selector Priority in CSS</title>
+  <link rel="stylesheet" href="./styles/selectors-priority.css">
+</head>
+<body>
+
+  <!-- Section: Tag Selector -->
+  <section>
+    <h2>Tag Selector</h2>
+    <p>Tag selectors apply styles to all elements of a specific HTML tag type (e.g., all paragraphs or headers).</p>
+    <p>This paragraph is styled using a tag selector, which has the lowest priority.</p>
+  </section>
+
+  <!-- Section: Class Selector -->
+  <section>
+    <h2>Class Selector</h2>
+    <p>Class selectors apply styles to elements with a specific class attribute. They have a higher priority than tag selectors.</p>
+    <p class="text">This paragraph is styled using a class selector, which has a higher priority than tag selectors.</p>
+  </section>
+
+  <!-- Section: ID Selector -->
+  <section>
+    <h2>ID Selector</h2>
+    <p>ID selectors apply styles to elements with a specific ID attribute. They have a higher priority than both tag and class selectors.</p>
+    <p id="important-text" class="text">This paragraph is styled using an ID selector, which has a higher priority than class and tag selectors.</p>
+  </section>
+
+  <!-- Section: Inline Style -->
+  <section>
+    <h2>Inline Style</h2>
+    <p>Inline styles are applied directly to an element using the <strong>style</strong> attribute. They have a higher priority than selectors defined in the stylesheet.</p>
+    <p style="color: orange;">This paragraph is styled using an inline style, which has a higher priority than selectors in the CSS file.</p>
+  </section>
+
+  <!-- Section: !important -->
+  <section>
+    <h2>Using !important</h2>
+    <p>The <strong>!important</strong> rule is used to override all other styles, including inline styles. It should be used sparingly as it makes code less flexible.</p>
+    <p id="important-text" class="text override">This paragraph is styled using the !important rule, which overrides all other styles.</p>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+/* --------------------------
+   Tag Selector
+   -------------------------- */
+
+   p {
+    color: blue; /* Tag selector has the lowest priority */
+  }
+  
+  /* --------------------------
+     Class Selector
+     -------------------------- */
+  
+  .text {
+    color: green; /* Class selector has a higher priority than tag selector */
+  }
+  
+  /* --------------------------
+     ID Selector
+     -------------------------- */
+  
+  #important-text {
+    color: red; /* ID selector has a higher priority than both tag and class selectors */
+  }
+  
+  /* --------------------------
+     !important Rule
+     -------------------------- */
+  
+  .override {
+    color: purple !important; /* !important has the highest priority and overrides all other styles */
+  }
+  

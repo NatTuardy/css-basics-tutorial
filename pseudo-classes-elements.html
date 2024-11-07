@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo-Classes and Pseudo-Elements</title>
+  <link rel="stylesheet" href="./styles/pseudo-classes-elements.css">
+</head>
+<body>
+
+    <!-- Pseudo-elements -->
+    <section>
+      <h2>Pseudo-elements</h2>
+  
+      <!-- ::before and ::after -->
+      <p class="before-after">This paragraph demonstrates ::before and ::after pseudo-elements.</p>
+  
+      <!-- ::first-letter -->
+      <p class="first-letter">This paragraph demonstrates the ::first-letter pseudo-element.</p>
+  
+      <!-- ::first-line -->
+      <p class="first-line">This paragraph demonstrates the ::first-line pseudo-element, which styles only the first line of text. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro iure repudiandae tempore delectus mollitia, ut accusantium qui quas eaque! Assumenda, beatae aliquid harum quis ea hic tempore alias explicabo accusamus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum deserunt repellat, debitis aperiam dignissimos sapiente mollitia accusantium ipsum illo nulla praesentium voluptatum, omnis dolore minus. Veniam facilis laudantium dolorum vel.</p>
+  
+      <!-- ::selection -->
+      <p class="selection">Select this text to see the ::selection pseudo-element in action.</p>
+    </section>
+  
+    <!-- Pseudo-classes -->
+    <section>
+      <h2>Pseudo-classes</h2>
+  
+      <!-- :hover and :focus -->
+      <button class="hover-focus">Hover over or focus on me!</button>
+  
+      <!-- :first-child and :last-child in flex containers -->
+      <section>
+        <h2>Pseudo-classes</h2>
+      
+        <!-- :first-child and :last-child in flex-container1 -->
+        <div class="flex-container1">
+          <div class="flex-item1">First child (styled with :first-child)</div>
+          <div class="flex-item1">Middle item</div>
+          <div class="flex-item1">Last child (styled with :last-child)</div>
+        </div>
+      
+        <!-- :nth-child(even), :nth-child(odd) in flex-container2 -->
+        <div class="flex-container2">
+          <div class="flex-item2">1st child - Odd (styled)</div>
+          <div class="flex-item2">2nd child - Even (styled)</div>
+          <div class="flex-item2">3rd child - Odd (styled)</div>
+          <div class="flex-item2">4th child - Even (styled)</div>
+        </div>
+      
+        <!-- New row with only the 4th child styled -->
+        <div class="flex-container3">
+          <div class="flex-item3">1st child</div>
+          <div class="flex-item3">2nd child</div>
+          <div class="flex-item3">3rd child</div>
+          <div class="flex-item3">4th child (styled)</div>
+          <div class="flex-item3">5th child</div>
+        </div>
+      </section>
+  
+    <!-- Float and Filters -->
+    <section>
+        <h2>Float</h2>
+        <!-- Float example -->
+        <div class="float-box">This box is floated to the left using CSS float.</div>
+        <p>This paragraph wraps around the floated box to demonstrate how float works in CSS.</p>
+      </section>
+      
+      <section class="filters-section">
+        <h2>Filters</h2>
+        <!-- Filter examples with tooltips -->
+        <img src="https://picsum.photos/150" alt="Example image" class="filter blur" title="Blur">
+        <img src="https://picsum.photos/150" alt="Example image" class="filter brightness" title="Brightness">
+        <img src="https://picsum.photos/150" alt="Example image" class="filter contrast" title="Contrast">
+        <img src="https://picsum.photos/150" alt="Example image" class="filter grayscale" title="Grayscale">
+        <img src="https://picsum.photos/150" alt="Example image" class="filter hue-rotate" title="Hue Rotate">
+        <img src="https://picsum.photos/150" alt="Example image" class="filter invert" title="Invert">
+        <img src="https://picsum.photos/150" alt="Example image" class="filter opacity" title="Opacity">
+        <img src="https://picsum.photos/150" alt="Example image" class="filter saturate" title="Saturate">
+        <img src="https://picsum.photos/150" alt="Example image" class="filter sepia" title="Sepia">
+      </section>
+    </section> 
+  </body>
+</html>

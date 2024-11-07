@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic CSS Concepts</title>
+  <link rel="stylesheet" href="./styles/basic-concepts.css">
+</head>
+<body>
+
+  <!-- Introduction to CSS -->
+  <section>
+    <h2>Introduction to CSS</h2>
+    <p>CSS (Cascading Style Sheets) is a styling language used to control the appearance of HTML elements. CSS can be applied to HTML tags in three ways:</p>
+    <ul>
+      <li><strong>Inline styles</strong>: applied directly to an HTML element using the <code>style</code> attribute.</li>
+      <li><strong>Internal styles</strong>: placed within a <code>&lt;style&gt;</code> tag in the HTML file.</li>
+      <li><strong>External styles</strong>: linked via an external CSS file placed within a <code>&lt;link&gt;</code> tag in the HTML file.</li>
+    </ul>
+  </section>
+
+  <!-- Basic Syntax -->
+  <section>
+    <h2>Basic Syntax of CSS</h2>
+    <p>A CSS rule consists of a selector and a declaration block. Example:</p>
+    <pre><code>h1 {
+  color: blue;
+  font-size: 24px;
+}</code></pre>
+    <p>The <strong>selector</strong> targets an element (in this case, <code>h1</code>), and the <strong>properties</strong> (such as <code>color</code> and <code>font-size</code>) change specific aspects of that element.</p>
+  </section>
+
+  <!-- Selectors -->
+  <section>
+    <h2>Types of Selectors</h2>
+    <p>Selectors allow us to target specific elements:</p>
+    <ul>
+      <li><strong>Tag selectors</strong>: Apply styles to all elements of a certain type (e.g., <code>h1</code>, <code>p</code>).</li>
+      <li><strong>Class selectors</strong>: Target elements with a specific class, marked with a dot (<code>.</code>).</li>
+      <li><strong>ID selectors</strong>: Target elements with a specific ID, marked with a hash symbol (<code>#</code>).</li>
+    </ul>
+    <div class="example">
+      <p class="text">This text is styled using a class selector.</p>
+      <div id="header">This header is styled using an ID selector.</div>
+    </div>
+  </section>
+
+  <!-- Colors and Background -->
+  <section>
+    <h2>Colors and Backgrounds</h2>
+    <p>Example of setting text color and background color:</p>
+    <pre><code>body {
+  background-color: #f0f0f0;
+}
+
+p {
+  color: #333333;
+}</code></pre>
+    <p class="colored-text">This paragraph has colored text.</p>
+    <div class="colored-background">This box has a colored background.</div>
+  </section>
+
+  <!-- Fonts and Text Styles -->
+  <section>
+    <h2>Fonts and Text Styles</h2>
+    <p>Styling text, setting fonts, weight, and alignment:</p>
+    <h1 class="styled-heading">Centered Heading with Custom Font</h1>
+    <p class="styled-text">This paragraph has a custom font family and text color.</p>
+  </section>
+
+  <!-- Padding and Margin -->
+  <section>
+    <h2>Padding and Margin</h2>
+    <p>Padding and margin allow you to control space inside and around elements:</p>
+    <div class="box">
+      <p>This box has padding and margin applied.</p>
+    </div>
+  </section>
+
+  <!-- CSS Box Model -->
+  <section>
+    <h2>CSS Box Model</h2>
+    <p>The box model consists of <strong>content</strong>, <strong>padding</strong>, <strong>border</strong>, and <strong>margin</strong>. Here’s an example:</p>
+    <div class="container">
+      <p>This container demonstrates the CSS box model.</p>
+    </div>
+  </section>
+
+</body>
+</html>
