@@ -99,9 +99,20 @@
      Background Properties
      -------------------------- */
 
-.bg-example {
+/* .bg-example {
   width: 300px;
   height: 300px;
+  background-image: url("https://picsum.photos/150");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  border: 2px solid #000;
+} */
+
+.bg-example {
+  width: 100vw; 
+  height: 100vh; 
   background-image: url("https://picsum.photos/150");
   background-repeat: no-repeat;
   background-position: center;
